@@ -46,28 +46,30 @@ export default function Hero() {
                   Projects
                 </Button>
               </Link>
-              <Button variant="outline" className="flex items-center gap-2 rounded-md px-6">
-                <Download className="h-4 w-4" />
-                Resume
-              </Button>
+              <Link href="/assets/pdf/ali_zulfiqar_cv.pdf" target="_blank">
+                <Button variant="outline" className="flex items-center gap-2 rounded-md px-6">
+                  <Download className="h-4 w-4" />
+                  Resume
+                </Button>
+              </Link>
             </div>
 
             <div className="flex items-center gap-4">
-              <Link href="https://github.com" target="_blank" aria-label="GitHub">
+              <Link href="https://github.com/alimalikali" target="_blank" aria-label="GitHub">
                 <Button variant="ghost" size="icon" className="rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800">
                   <Github className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+              <Link href="https://www.linkedin.com/in/alizulfiqarmalik" target="_blank" aria-label="LinkedIn">
                 <Button variant="ghost" size="icon" className="rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800">
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://twitter.com" target="_blank" aria-label="Twitter">
+              {/* <Link href="https://twitter.com" target="_blank" aria-label="Twitter">
                 <Button variant="ghost" size="icon" className="rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800">
                   <Twitter className="h-5 w-5" />
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </AnimatedSection>
 

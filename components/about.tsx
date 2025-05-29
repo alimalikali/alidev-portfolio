@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import AnimatedSection from "@/components/animated-section"
 import { Badge } from "./ui/badge"
 import { Download } from "lucide-react"
+import Link from "next/link"
 
 export default function About() {
   return (
@@ -84,10 +85,14 @@ export default function About() {
             </div>
 
             <div className="flex gap-4">
-              <Button  className="gap-2  rounded-md px-6">
-                <Download className="w-4 h-4 mr-2" /> Resume
-              </Button>
-              <Button variant="outline" className="gap-2  rounded-md px-6">Contact Me</Button>
+              <Link href="/assets/pdf/ali_zulfiqar_cv.pdf" target="_blank">
+                <Button  className="gap-2  rounded-md px-6">
+                  <Download className="w-4 h-4 mr-2" /> Resume
+                </Button>
+              </Link>
+              <Link href="/#contact">
+                <Button variant="outline" className="gap-2  rounded-md px-6">Contact Me</Button>
+              </Link>
             </div>
           </AnimatedSection>
         </div>

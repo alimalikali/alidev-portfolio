@@ -107,7 +107,7 @@ export const projects: Project[] = [
     },
     {
         id: "4",
-        title: "Islamic Acdemia",
+        title: "Islamic Acdemia (under development)",
         description: "An online udemy like platform for islamic courses where skilled teachers can upload their courses and students can enroll in them.",
         challenge: "The client needed a platform for his islamic courses where skilled teachers can upload their courses and students can enroll in them.",
         solution: "I used Next.js with Tailwind CSS on the frontend and MongoDB for the database and Next js Inbuilt API routes. I also used Vercel for hosting and Resend for email integration.",
